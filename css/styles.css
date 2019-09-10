@@ -1,0 +1,193 @@
+body {
+    font-family: 'Space Mono', monospace;
+    margin: 0;
+}
+
+h1, h2, h3 {
+    line-height: 1;
+    margin: 0;
+    font-family: 'Radley',serif;
+    font-weight: normal;
+}
+
+ header h1 {
+    font-size: 200px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+header span {
+    position: absolute;
+    transform: rotate(-90deg);
+    transform-origin: 0 0;
+    bottom: 15px;
+    left: 15px;
+}
+
+h2 {
+    font-size: 40px;
+    margin: 20px 0;
+}
+
+h3 {
+    font-size: 24px;
+    color: #F04D23;
+    margin-top: 20px;
+}
+.underlined, footer a {
+    text-decoration: underline;
+}
+
+a {
+    color: #F04D23;
+    transition: all 0.5s ease-in 0.1s;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+a:hover {
+    background: #E75D24;
+    color: #fff;
+}
+
+p {
+    text-transform: none;
+    font-weight: 200;
+    line-height: 160%;
+    font-size: 14px;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li {
+    font-size: 16px;
+    color: black;
+    margin: 25px 12.5px 25px 12.5px;
+    display: inline-block;
+}
+
+aside li img{
+        height: 30px;
+}
+
+aside {
+    position: fixed;
+    left: 0;
+    z-index: 1;
+}
+aside ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+nav li a {
+    color: #000;
+  }
+
+header {
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    color: #FFFFFF;
+    text-align: center;
+    height: 80vh;
+    position: relative;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container ul {
+    padding-inline-start: 0;
+}
+
+.container li {
+    padding: 10px 0;
+    list-style-type: none;
+    border-bottom: 1px solid lightgray;
+    font-size: 15px;
+}
+
+.list {
+    font-size: 15px;
+}
+
+header .meet {
+    font-size: 18px;
+    color: white;
+    text-transform: lowercase;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+span.highlighted {
+    background: #FF4907;
+    color: white;
+    padding: 0 5px;
+}
+
+footer {
+    font-size: 14px;
+    background-color: #F2F2F2;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.author {
+    position: relative;
+}
+
+.author::after {
+    content: url("../img/cross.svg");
+    position: absolute;
+    width: 300px;
+    top: -40px;
+    left: -120px;
+    z-index: -1;
+}
+
+.touch {
+    position: relative;
+    margin-top: 60px;
+}
+
+.touch::after {
+    content: url("../img/line.svg");
+    position: absolute;
+    width: 850px;
+    top: 80px;
+    left: 150px;
+    z-index: -1;
+}
+#contact a {
+    font-size: 15px;
+}
+
+#contact h2 {
+    font-size: 100px;
+}
+
+#contact p {
+    font-size: 18px;
+    padding: 50px 0;
+}
+
+#contact {
+    text-align: center;
+}
